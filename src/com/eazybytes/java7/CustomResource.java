@@ -1,12 +1,10 @@
 package com.eazybytes.java7;
 
-import java.io.Closeable;
-
 public class CustomResource implements AutoCloseable{
 
     /**
      *
-     * @throws Exception
+     * @throws Exception : throws Exception.
      */
     @Override
     public void close() throws Exception {
